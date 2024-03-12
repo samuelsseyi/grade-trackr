@@ -11,7 +11,7 @@ const calculateGrade = ()=> {
     gradeResult.innerHTML = "Null"
     gradeResult.style.color = "red"
     gradeRemark.innerHTML = `Invalid Input ❌: Score Must Be Between 0-100.`
-    container.innerHTML = `<audio src="audio/error-call-to-attention-129258.mp3" controls autoplay></audio>`
+    container.innerHTML = `<audio src="audio/error-call-to-attention-129258.mp3" autoplay></audio>`
   } else if (userScore <= 40 ){
     gradeResult.innerHTML = "F"
     gradeResult.style.color = "red"
@@ -46,7 +46,7 @@ const calculateGrade = ()=> {
     gradeResult.innerHTML = "Null"
     gradeResult.style.color = "red"
     gradeRemark.innerHTML = `Invalid Input ❌: Score Must Be Between 0-100. `
-    container.innerHTML = `<audio src="audio/error-call-to-attention-129258.mp3" controls autoplay></audio>`
+    container.innerHTML = `<audio src="audio/error-call-to-attention-129258.mp3" autoplay></audio>`
   }
 
 
