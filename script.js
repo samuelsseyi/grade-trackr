@@ -7,7 +7,7 @@ const calculateGrade = ()=> {
 
   document.getElementById("resultElements").style.display = "block"
 
-  if (userScore < 1){
+  if (userScore < 0 || userScore ===  ""){
     gradeResult.innerHTML = "Null"
     gradeResult.style.color = "red"
     gradeRemark.innerHTML = `Invalid Input ❌: Score Must Be Between 0-100.`
